@@ -1,0 +1,57 @@
+Side nav will be created for the navigation bar
+It will be flex with space around to make log out appear in the bottom
+----------------------------------------------------------------------
+Image will be added as round with the following  styling
+.profile-img {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 80px;
+    width: 80px;
+  }
+  img {
+    max-width: 100%;
+  }
+  -----------------------------------------------------------------------
+  Recent chats will be a list of card items.
+  individual messages in a chat window left vs right message
+<div class="container">
+  <img src="/w3images/bandmember.jpg" alt="Avatar" style="width:100%;">
+  <p>Hello. How are you today?</p>
+  <span class="time-right">11:00</span>
+</div>
+<div class="container darker">
+  <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="right" style="width:100%;">
+  <p>Hey! I'm fine. Thanks for asking!</p>
+  <span class="time-left">11:01</span>
+</div>
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+------------------------------------------------------------
