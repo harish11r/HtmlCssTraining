@@ -1,116 +1,212 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css" />
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<div class="sidenav">
+  <div class="sidenav">
     <div>
-    <div class="author">
-        <div class="profile-img animated-bg" id="profile_img">
-          <img src="Images/ProfilePicMan.jpg" alt="" />
-         </div>
-        
+      <div class="profile-owner-img">
+        <img src="Images/Henry.png" alt="" />
       </div>
-      <a href="#">Henry V</a>
+      <div class="profile-owner-name">
+        <a href="#">Henry Jabbawockiez</a>
+        <img src="Icon/chevron-down.png" alt="" />
+      </div>
       <br>
-     
-  
-  <div class="menu-item">
-    <i class="fa fa-car"></i>
-    <a href="#">Home</a>
-  </div>
-  <div class="menu-item">
-    <i class="fa fa-car"></i>
-    <i class="fas fa-comment-dots"></i>
-    <a href="#">Chat</a>
-  </div>
-  
-  <div class="menu-item">
-    <i class="fa fa-car"></i>
-    <a href="#">Contact</a>
-  </div>
-  <div class="menu-item">
-    <i class="fa fa-car"></i>
-    <a href="#">Notification</a>
-  </div>
-  <div class="menu-item">
-    <i class="fa fa-car"></i>
-    <a href="#">Calender</a>
-  </div>
-  <div class="menu-item">
-    <i class="fa fa-car"></i>
-    <a href="#">Settings</a>
-  </div>
-</div>
-  <div class="menu-item">
-    <i class="fa fa-car"></i>
-    <a href="#">Logout</a>
-  </div>
-  <br>
-</div>
 
-<div class="chatscontainer">
+      <div class="menu-item">
+        <img src="Icon/Outline/grid.jpg">
+        <a href="#">HOME</a>
+      </div>
+      <div class="menu-item">
+        <img src="Icon/Fill/message-circle.jpg">
+        <a href="#">CHAT</a>
+      </div>
+
+      <div class="menu-item">
+        <img src="Icon/Outline/person.jpg">
+        <a href="#">CONTACT</a>
+      </div>
+      <div class="menu-item">
+        <img src="Icon/Outline/bell.jpg">
+        <a href="#">NOTIFICATION</a>
+      </div>
+      <div class="menu-item">
+        <img src="Icon/Outline/calendar.png">
+        <a href="#">CALENDAR</a>
+      </div>
+      <div class="menu-item">
+        <img src="Icon/Outline/settings-2.jpg">
+        <a href="#">SETTINGS</a>
+      </div>
+    </div>
+    <div class="menu-item">
+      <img src="Icon/Outline/power.png">
+      <a href="#">LOGOUT</a>
+    </div>
+  </div>
+
+  <div class="chatscontainer">
     <div class="chats">
-        
-    <div class="chats-header">
+
+      <div class="chats-header">
         <div class="chats-header-item1">
-            <h2>Chats</h2>
-            <p>Recent Chats</p>
+          <h2>Chats</h2>
+          <p>Recent Chats</p>
         </div>
         <div class="chats-header-item2">
-            <button type="button" class="btn-grad"> + Create New Chat</button>
+          <button type="button" class="btn-grad"> + Create New Chat</button>
         </div>
-        
-    </div>
-    <div class="search-box">
-        <h2>search</h2>
-        <h2>messages</h2>
-    </div>
-    <section class="list-messages-scroll">
-       <div>
-           <div class="message-item">fdfgd</div>
-           <div class="message-item">fdfgd</div>
-           <div class="message-item">fdfgd</div>
-           <div class="message-item">fdfgd</div>
-           <div class="message-item">ff</div>
-           <div class="message-item">rr</div>
-           <div class="message-item">tt</div>
-           <div class="message-item">uu</div>
-       </div>
-    </section>
+
       </div>
-      
-      <div class="chatwindow">
-        <div class="author">
-            <div class="profile-img animated-bg" id="profile_img">
-              <img src="Images/ProfilePicWoman.jpg" alt="" />
-              &nbsp;</div>
-            <div class="author-info">
-              <strong class="animated-bg animated-bg-text" id="name"
-                >Nika Jerrardo</strong>
-              <small class="animated-bg animated-bg-text" >
-               
-                last online 5 hours ago
-              </small>
+      <div class="search-box">
+        <input type="search" placeholder="Search" class="searchbox">
+        <select class="search-type">
+          <option value="messages">messages</option>
+        </select>
+      </div>
+      <section class="list-messages-scroll">
+        <div>
+          <div class="message-item">
+            <div class="message-item-header">
+              <div class="message-item-sub-header">
+                <img class="message-profile-pic" src="Images/Lucy.png">
+                <div class="message-user-name-info">
+                  <label>
+                    Luy Robin
+                  </label>
+                  <div class="message-action">
+                    <img class="" src="Icon/Outline/Group 5.jpg">
+                    <span>writes</span>
+                  </div>
+                </div>
+              </div>
+              <label>
+                1 minute ago
+              </label>
+            </div>
+            <div class="message-item-body">
+              <p>
+                Most of its text is made up from sections 1.10.32–3 of Cicero's De finibus bonorum et malorum (On the
+                Boundaries of Goods and Evils; finibus may also be translated as purposes).
+              </p>
+              <img src="Icon/Fill/Indication-2.png">
             </div>
           </div>
-        <!-- <h2>Sidenav Example</h2>
-        <p>This sidenav is always shown.</p> -->
-        <ol class="messages">
-            <li>Hello! finally found the time to write to you</li>
-            <li>Can i send you files?</li>
-            <li class="ours">Okay, send out</li>
-            <li>Styles.zip</li>
-            <li class="ours">Hello! I tweaked evreything out and im sending the finished file.</li>
-          </ol>
+
+          <div class="message-item">
+            <div class="message-item-header">
+              <div class="message-item-sub-header">
+                <img class="message-profile-pic" src="Images/Jared.png">
+                <div class="message-user-name-info">
+                  <label>
+                    Jared Sunn
+                  </label>
+                  <div class="message-action">
+                    <img class="" src="Icon/Outline/Rec_Icon.png">
+                    <span>records voice message</span>
+                  </div>
+                </div>
+              </div>
+              <label>
+                1 minute ago
+              </label>
+            </div>
+            <div class="message-item-body">
+              <p>
+              </p>
+              <img src="Icon/Fill/Indication-1.png">
+            </div>
+            
+          </div>
+
+          <div class="message-item">
+            <div class="message-item-header">
+              <div class="message-item-sub-header">
+                <img class="message-profile-pic" src="Images/Nyka.png">
+                <div class="message-user-name-info">
+                  <label>
+                    Nika Jerrardo
+                  </label>
+                  <div class="message-action">
+                    <span>last online 5 hours ago</span>
+                  </div>
+                </div>
+              </div>
+              <label>
+                3 days ago
+              </label>
+            </div>
+            <div class="message-item-body">
+              <p>
+                Cicero famously orated against his political opponent Lucius Sergius Catilina.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="message-item">fdfgd</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="chatwindow">
+      <div class="author">
+        <div class="profile-img animated-bg" id="profile_img">
+          <img src="Images/Nyka.png" alt="" />
+          &nbsp;
+        </div>
+        <div class="author-info">
+          <strong class="animated-bg animated-bg-text" id="name">Nika Jerrardo</strong>
+          <small class="animated-bg animated-bg-text">
+
+            last online 5 hours ago
+          </small>
+        </div>
       </div>
-      
-</div>
-   
+      <!-- <h2>Sidenav Example</h2>
+        <p>This sidenav is always shown.</p> -->
+      <div class="chat-window">
+        <ol class="messages">
+          <li class="their">
+            <p>Hello! Finally found the time to write to you) I need your help in creating interactive animations for my
+              mobile application. </p>
+            <img src="Icon/Outline/more-horizontal.jpg">
+          </li>
+          <li class="their">
+            <p>Can I send you files?</p>
+            <img src="Icon/Outline/more-horizontal.jpg">
+          </li>
+          <li class="ours">
+            <img src="Icon/Outline/more-horizontal.jpg">
+            <p>Hey! Okay, send out.</p>
+
+          </li>
+          <li class="their">
+            <p>Styles.zip</p>
+            <img src="Icon/Outline/more-horizontal.jpg">
+          </li>
+          <li class="ours">
+            <img src="Icon/Outline/more-horizontal.jpg">
+            <p>Hello! I tweaked everything you asked. I am sending the finished file.</p>
+          </li>
+        </ol>
+        <div class="chat-type-box">
+          <input type="text">
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
 </body>
-</html> 
+
+</html>
