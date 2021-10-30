@@ -36,20 +36,20 @@
       </div>
       <div class="menu-item">
         <img src="Icon/Outline/bell.jpg">
-        <a href="#">NOTIFICATION</a>
+        <a href="#">notification</a>
       </div>
       <div class="menu-item">
         <img src="Icon/Outline/calendar.png">
-        <a href="#">CALENDAR</a>
+        <a href="#">calendar</a>
       </div>
       <div class="menu-item">
         <img src="Icon/Outline/settings-2.jpg">
-        <a href="#">SETTINGS</a>
+        <a href="#">settings</a>
       </div>
     </div>
     <div class="menu-item">
       <img src="Icon/Outline/power.png">
-      <a href="#">LOGOUT</a>
+      <a href="#">logout</a>
     </div>
   </div>
 
@@ -135,16 +135,16 @@
                   <label>
                     Nika Jerrardo
                   </label>
-                  <div class="message-action">
+                  <div class="message-action-selection">
                     <span>last online 5 hours ago</span>
                   </div>
                 </div>
               </div>
-              <label>
+              <label class="message-date-selection">
                 3 days ago
               </label>
             </div>
-            <div class="message-item-body">
+            <div class="message-item-body-selection">
               <p>
                 Cicero famously orated against his political opponent Lucius Sergius Catilina.
               </p>
@@ -176,30 +176,59 @@
       <div class="chat-window">
         <ol class="messages">
           <li class="their">
-            <p>Hello! Finally found the time to write to you) I need your help in creating interactive animations for my
-              mobile application. </p>
-            <img src="Icon/Outline/more-horizontal.jpg">
+            <div class="message">
+              <p>Hello! Finally found the time to write to you) I need your help in creating interactive animations for my
+                mobile application. </p>
+              <img src="Icon/Outline/more-horizontal.jpg">
+            </div>
+            
           </li>
           <li class="their">
+            <div class="message">
             <p>Can I send you files?</p>
             <img src="Icon/Outline/more-horizontal.jpg">
+            </div>
+            <label class="message-time-line">4 days ago</label>
           </li>
           <li class="ours">
+            <div class="message">
             <img src="Icon/Outline/more-horizontal.jpg">
             <p>Hey! Okay, send out.</p>
-
+            </div>
+            <label class="message-time-line">4 days ago</label>
           </li>
           <li class="their">
+            <div class="message">
             <p>Styles.zip</p>
             <img src="Icon/Outline/more-horizontal.jpg">
+            </div>
+            <label class="message-time-line">4 days ago</label>
           </li>
           <li class="ours">
+            <div class="message">
             <img src="Icon/Outline/more-horizontal.jpg">
             <p>Hello! I tweaked everything you asked. I am sending the finished file.</p>
+            </div>
           </li>
         </ol>
         <div class="chat-type-box">
-          <input type="text">
+          <ul class="add-icons">
+            <li>
+              <img src="Icon/Icon Video.png">
+            </li>
+            <li>
+              <img src="Icon/Icon Photo.png">
+            </li>
+            <li>
+              <img src="Icon/Icon File.png">
+            </li>
+            <li>
+              <img src="Icon/Icon File.png">
+            </li>
+          </ul>
+         <input type="text" placeholder="Type your message here" class="chat-type-input">
+         <img src="Icon/Smile icon.png" >
+         <img src="Icon/Smile Icon.png">
         </div>
       </div>
 
